@@ -2,6 +2,7 @@ import "./App.css";
 import { MainContainer } from "./Components/MainContainer";
 import { RightMenu } from "./Components/RightMenu";
 import "./styles/Responsive.css";
+import "animate.css";
 
 function App() {
   return (
