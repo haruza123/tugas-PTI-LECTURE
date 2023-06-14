@@ -1,0 +1,35 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  background-color: #3eecac;
+  background-image: linear-gradient(0deg, #3eecac 0%, #ee74e1 100%);
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  filter: grayscale(100);
+  z-index: -1;
+}
+
+.mainContainer .songImage .rightContainer {
+  background: rgb(116, 116, 191);
+  background: linear-gradient(
+    90deg,
+    rgba(116, 116, 191, 1) 0%,
+    rgba(52, 138, 199, 1) 100%
+  );
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    flex-direction: column;
+  }
+}
